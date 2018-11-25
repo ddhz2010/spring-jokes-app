@@ -11,7 +11,7 @@ public class JokeController {
 
     private JokeService jokeService;
 
-    @Autowired // optional annotation, works without
+    //@Autowired // optional annotation, works without
     public JokeController(JokeService jokeService) {
         this.jokeService = jokeService;
     }
